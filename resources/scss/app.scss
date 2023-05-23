@@ -1,0 +1,13 @@
+
+@use './header.scss';
+@use './home.scss';
+@use './footer.scss';
+@import '~bootstrap/scss/bootstrap';
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+ul{
+    list-style-type:none;
+}

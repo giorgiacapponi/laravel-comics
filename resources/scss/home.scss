@@ -1,0 +1,49 @@
+@use './variables.scss' as*;
+.banner{
+    background-image: url(../img/jumbotron.jpg);
+    height: 300px;
+    background-size: cover;
+}
+.current-series{
+    background-color: rgb(23, 22, 22);
+    color: white;
+    .container{
+        padding: 3rem;
+        position: relative;
+        h2{
+            height: 40px;
+            background-color: $bg-color-blue;
+            padding: 0 .5rem;
+            position: absolute;
+            top: -20px;
+        }
+        .card{
+            background-color:  rgb(23, 22, 22);
+            border: none;
+            img{
+                width: 10rem;
+                height: 10rem;
+                object-fit: cover;
+            }
+        }
+        button{
+            height: 40px;
+            background-color: $bg-color-blue;
+            padding: 0 2rem;
+            border: none;
+            color: white;
+        }
+    }
+}
+
+.links{
+    background-color: $bg-color-blue;
+    position: relative;
+    z-index: 10;
+   .container{
+    height: 100px;
+    ul{
+        height: 100%;
+    }
+   }
+}
